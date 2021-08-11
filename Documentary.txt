@@ -1,0 +1,40 @@
+Front end project Documentary
+-----------------------------------
+in this project i will be trying to recreate a bunch of website using javascript,css,html
+
+What i learned  a 
+
+## 1. Creative design
+
+in term of html markup using section to divide the website is a smart aproch to designing
+
+in css you can import fonts directly and i also learnt some extra function and tricks
+
+* using viewport width and height is usefull when designing something that should react to user device
+* the *{} can be used in start to remove margin and padding make box-sizing=border box remove text-decoration and set the default font family and weight
+* position of absolute is great for centering header element such as main title and top page stuff
+* as usuall flex box works wonder with nav items and :: before and ::after are great for adding decorative stuff to element
+* the transition property is used to transition one or all properties through states
+* left 50% and translateX(-50%) for centering elements
+* transition property choose which proprety is animated for how much time
+* multilevel shadows with negative and positive values
+
+
+## look up position absolute and first last child and text align justify , object fit , text indent
+
+## defining a section by 100% width and 100vh a transiton of smooth
+
+## 2. Architect
+
+*an image-wrapper is useful for adding a blackshade to the image
+*setting html font-size to 62.5% makes rem= 10px
+*outline and border are kinda similar
+* animation can have an time offset for it to wait useful when two or more items have the same animation
+*display none or opacity 0 and visibility hidden
+*attr("attribute name ")
+* for somme reason gridbox and 100vh cause
+* padding is good for sectioning 
+* display grid and grid-template-column:repeat(number of columns ,width or fraction)
+*grid-gap for distancing grid element
+*grid element can be positioned by grid-column and grid-row property
+:nth child
