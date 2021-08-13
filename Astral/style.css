@@ -28,7 +28,7 @@ html{
 .container{
     width: 100%;
     min-height: 100vh;
-    background-color: #C06C84;
+    background-color: #F67280;
     overflow: hidden;/*why does this fix the limit*/
 }
 .icons-wrapper{
@@ -189,7 +189,7 @@ input:focus{
 }
 .img-wrapper{
     width: 45%;
-    background: linear-gradient(rgba(15,15,15,0.2),rgba(22,22,22,0.4)),url("images/person-1.jpg") center no-repeat;
+    background: linear-gradient(rgba(15,15,15,0.2),rgba(22,22,22,0.4)),url("images/__kaneda_shoutarou_akira_drawn_by_hankuri__dfc2d533650bee66e113fbe44642ae38.jpg") center no-repeat;
     background-size:cover ;
     border-radius: .5rem;
 }

@@ -1,4 +1,5 @@
-let icons=document.querySelectorAll(".icon");
+const icons=document.querySelectorAll(".icon");
+const container=document.querySelector(".container");
 icons.forEach((icon)=>{
     icon.addEventListener("click",()=>{
         let panel=icon.getAttribute("panel");
@@ -9,7 +10,8 @@ icons.forEach((icon)=>{
         if(panel.length===0){
             return;
         }
-        console.log(`#${panel}`);
+        container.style["background-color"]=icon.getAttribute("color");
+
         document.querySelector(`#${panel}`).classList.toggle("active");
     
     })
