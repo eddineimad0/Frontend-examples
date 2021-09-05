@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #1e252d;
+    background-image: url("/images/bg.jpg"),linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20rem 20rem 18rem 20rem;
+    transition: opacity .2s ease,transform .2s ease;
+    position: relative;
+}
+.intro.hidden{
+    opacity:0;
+    transform: translateY(5rem);
+}
+.logo{
+    color: #fff;
+    font-size: 6rem;
+    position: relative;
+    transition: opacity .5s ease,trasform .5s ease;
+    opacity: 0;
+    visibility: hidden;
+    font-weight: 700;
+    font-style: bold;
+    border: #fff solid 1rem;
+    padding: 2rem;
+    letter-spacing: .8rem;
+}
+.intro h1{
+    color: #fff;
+    font-size: 8rem;
+    font-weight: 700;
+    font-style: bold;
+    letter-spacing: 2pt;
+}
+.intro p{
+    color:#fff;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 4;
+}
+.intro a{
+    font-size: 6rem;
+    color: #fff;
+}
+.intro.hidden+.logo{
+    transform: translateY(-20rem);
+    opacity: 1;
+    visibility: visible;
+
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    background-color: #6d6763;
+    margin: auto;
+    justify-content: space-between;
+}
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    text-transform: uppercase;
+}
+.navlinks li{
+    padding: 3.3rem;
+}
+.navlinks li.active{
+    background-color: #fff;
+    box-shadow: .2rem -.2rem .2rem   rgba(0,0, 0, 0.3);
+}
+.navlinks li.active a{
+    color:#282f36
+}
+.navlinks a{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-style: bold;
+    
+}
+.navicons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    width:30%;
+}
+.navicons a{
+    font-size: 3rem;
+    color: #fff;
+    display: inline-block;
+    margin: 0 2rem 0 0;
+}
+
+main{
+    background-color:#fff;
+    height: 30rem;
+    width: 80vw;
+    margin: auto;
+}
