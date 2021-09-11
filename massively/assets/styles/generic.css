@@ -98,9 +98,6 @@ img{
     }
 }
 @media (max-width:580px) {
-    main{
-        width:100vw;
-    }
     article{
         padding:4rem 0;
     }

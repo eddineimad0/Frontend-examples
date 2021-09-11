@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/shared.css">
+    <link rel="stylesheet" href="./assets/styles/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="assets/scripts/shared.js" defer></script>
+    <title>Contact</title>
+</head>
+<body>
+    <div class="loader" style="display:none;"></div>
+    <header>
+            <div class="menu">
+                <div class="menu-line line1"></div>
+                <div class="menu-line line2"></div>
+                <div class="menu-line line3"></div>
+            </div>
+        <a class="logo" href="index.html">Logo</a>
+    </header>
+    <nav id="navbar">
+        <ul class="navlinks" >
+            <li><a href="./index.html">This is Massively</a></li>
+            <li><a href="./generic.html">Generic Page</a></li>
+            <li class="active"><a href="./contact.html">Contact</a></li>
+        </ul>
+        <ul class="navicons">
+            <li><a><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a><ion-icon name="logo-github"></ion-icon></a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Form</h2>
+        <form action="GET" class="contact-form">
+            <div class="name-email">
+                <input type="text" name="name-demo" placeholder="Name" id="name-input">
+                <input type="email" name="email-demo" id="email-input" placeholder="Email">
+            </div>
+            <select name="category-demo" id="category-input">
+                <option value="0">-Category-</option>
+                <option value="1">Manufacturing</option>
+                <option value="2">Shipping</option>
+                <option value="3">Administration</option>
+                <option value="4">Human Ressource</option>
+            </select>
+            <div class="checkbox">
+                <div class="check-item">
+                    <input type="radio" id="demo-priority" class="low" name="demo-priority" checked="">
+                    <label for="demo-priority">Low</label>
+                </div>
+                <div class="check-item">
+                    <input type="radio" id="demo-priority" class="medium" name="demo-priority">
+                    <label for="demo-priority">Medium</label>
+                </div>
+                <div class="check-item">
+                    <input type="radio" id="demo-priority"class="high" name="demo-priority">
+                    <label for="demo-priority">High</label>
+                </div>
+            </div>
+            <textarea name="message" id="message-demo" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <div class="buttons">
+                <input class="primary-btn" type="submit" value="Send Message">
+                <input class="secondary-btn" type="reset" value="Reset">
+            </div>
+        </form>
+    </main>
+    <div id="navpanel">
+        <div><ul class="links">
+            <li><a href="./index.html">This is Massively</a></li>
+            <li><a href="./generic.html">Generic Page</a></li>
+            <li class="active"><a href="./contact.html">Contact</a></li>
+        </ul><ul class="icons">
+            <li><a><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a><ion-icon name="logo-github"></ion-icon></a></li>
+        </ul></div>
+    </div>
+    <div class="copyright">
+        <p>&copy;Untitled</p>
+    </div>
+</body>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</html>

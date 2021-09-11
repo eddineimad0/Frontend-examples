@@ -1,0 +1,103 @@
+main{
+    background-color: #f5f5f5;
+}
+h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    display: block;
+    font-style:bold;
+    width:80%;
+    padding: 8rem 0 4rem 1rem;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+input,textarea,select{
+    border:2px solid #e2e2e2;
+    background-color: #f5f5f5;
+    background-origin: padding-box;
+    padding: 1rem;
+}
+input:focus,select:focus,textarea:focus{
+    border:1px solid #18bfef;
+}
+.name-email{
+    width:100%;
+}
+#name-input{
+    width:44%;
+    margin: 2rem 1.4rem 2rem 1rem;
+    height: 4.8rem;
+    appearance: none;
+}
+#email-input{
+    height: 4.8rem;
+    width: 44%;
+    appearance: none;
+}
+#category-input{
+    width: 90%;
+    margin-left: 1rem;
+    height: 4.8rem;
+    cursor: pointer;
+}
+.checkbox{
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:4rem 0;
+    align-self: flex-start;
+}
+.check-item{
+    position: relative;
+    flex-basis: 20rem;
+    padding-left: 4rem;
+}
+#demo-priority{
+    width:4rem;
+    height: 2.8rem;
+    cursor: pointer;
+}
+label{
+    font-size: 1.8rem;
+    position: absolute;
+    margin-left:.4rem;
+    font-weight:300;
+}
+#message-demo{
+    margin:0rem 0rem 3rem 1rem;
+    width:90%;
+    max-width: 84rem;
+}
+.buttons{
+    margin-left: 1rem;
+    width: 100%;
+    padding:2rem;
+}
+.primary-btn{
+    appearance: none;
+    width:20rem;
+    margin-right: 2rem;
+    color:#fff;
+    background-color: #212931;
+    font-size: 1.6rem;
+    font-style: bold;
+    font-weight: 700;
+    box-shadow: .1rem .1rem .4rem .2rem rgba(0,0,0,.1);
+    cursor: pointer;
+}
+.secondary-btn{
+    appearance: none;
+    margin-top:2rem;
+    width:15rem;
+    background-color: #fff;
+    border:2.3px solid #212931;
+    color:#212931;
+    font-size: 1.6rem;
+    font-style:bold;
+    font-weight:700;
+    box-shadow: .1rem .1rem .4rem .2rem rgba(0,0,0,.1);
+    cursor: pointer;
+}
